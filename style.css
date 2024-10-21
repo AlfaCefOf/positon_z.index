@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Rethink Sans", sans-serif;
+}
+.bx1{
+    display: flex;
+    gap: 40px;
+}
+
+.div1 {
+    background-color: #FFC0CB;
+    position: relative;
+    width: 300px;
+    height: 210px;
+    border: 2px solid black;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.div2 div:nth-child(2) {
+    background-color: #FFFF00;
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    top: 10;
+    left: 150px;
+    z-index: 1;
+    bottom: 140px;
+}
+
+.div2 div:nth-child(1) {
+    background-color: #008001;
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    border: 1px solid black;
+    font-size: 17px;
+    bottom: 0;
+    text-align: center;
+    padding-top: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.dv1 {
+    background-color: #FFC0CB;
+    width: 360px;
+    height: 160px;
+    border: 2px solid black;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+p {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.dv2 div:nth-child(1) {
+    background-color: #FFFF00;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    z-index: 1;
+    top: -5px;
+    left: -5px;
+}
+
+.dv2 div:nth-child(2) {
+    width: 320px;
+    height: 80px;
+    background-color: #008001;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    background-color: #B238FF;
+    width: 320px;
+    height: 260px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box div:nth-child(1) {
+    position: absolute;
+    background-color: #FF4397;
+    border: 1px solid black;
+    top: 20px;
+    left: 20px;
+    width: 280px;
+    height: 220px;
+}
+
+.box div:nth-child(2) {
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    border: 3px dotted black;
+    background-color: #FFFF00;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 60px;
+}
